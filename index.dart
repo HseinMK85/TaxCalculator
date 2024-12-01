@@ -41,7 +41,7 @@ class _PayrollCalculatorScreenState extends State<PayrollCalculatorScreen> {
   }
 
   // Updated currency conversion rate
-  double convertToLBP(double amount) => amount * 89700; // Corrected rate
+  double convertToLBP(double amount) => amount * 89700; 
 
   void calculatePayroll() {
     final salary = double.tryParse(_salaryController.text) ?? 0.0;
